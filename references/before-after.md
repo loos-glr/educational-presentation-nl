@@ -513,6 +513,57 @@ De meeste presentaties slaan oefening volledig over en gaan direct naar de concl
 
 ---
 
+## Voorbeeld 7: Topic-titel → bewering + visueel bewijs (Assertion-Evidence)
+
+### ❌ VOOR (topic-titel + bullets)
+
+```
+╔════════════════════════════════════════════════╗
+║  ONDERZOEKSRESULTATEN                          ║
+╠════════════════════════════════════════════════╣
+║                                                ║
+║  • De interventiegroep scoorde hoger           ║
+║  • Het effect was significant                  ║
+║  • De controlegroep veranderde niet            ║
+║  • Effectgrootte: d = 0,8                      ║
+║                                                ║
+╚════════════════════════════════════════════════╝
+```
+
+**Analyse van de problemen**:
+- ❌ Geen declaratieve titel: het publiek moet zelf de conclusie destilleren
+- ❌ Bullets bevatten de spreektekst; voorlezen ligt op de loer (redundantie)
+- ❌ Cijfers zonder visueel bewijs (geen multimedia)
+- ❌ Bullets als structuur in plaats van bewijs
+
+---
+
+### ✅ NA (Assertion-Evidence)
+
+```
+╔════════════════════════════════════════════════╗
+║  DE INTERVENTIEGROEP SCOORDE 22% HOGER         ║
+║  DAN DE CONTROLEGROEP                          ║
+║  (Declaratieve titel, 12 woorden)              ║
+╠════════════════════════════════════════════════╣
+║                                                ║
+║       [STAFFELDIAGRAM MET FOUTENBALKEN]        ║
+║                                                ║
+║    ① d = 0,8 (groot effect)                    ║
+║    ② n.s. (geen verschil)                      ║
+║                                                ║
+╚════════════════════════════════════════════════╝
+```
+
+**Wat is er veranderd**:
+- ✅ Titel is nu de conclusie (declaratieve bewering)
+- ✅ Bullets vervangen door visueel bewijs met callouts
+- ✅ Spreker vertelt het verhaal rond het diagram (extempore)
+
+**Toegepaste principes**: Assertion-Evidence (regels 1-3), multimedia, ruimtelijke contiguïteit, redundantie
+
+---
+
 ## Transformatieprincipes: samenvatting
 
 ### Transformatie type 1: "De-tekstualisering"
@@ -538,6 +589,14 @@ De meeste presentaties slaan oefening volledig over en gaan direct naar de concl
 ### Transformatie type 6: "Actief leren"
 **Actie**: alleen inhoud → inhoud + oefening + feedback
 **Winst**: +150% retentie op lange termijn
+
+### Transformatie type 7: "Bewering + bewijs"
+**Actie**: topic-titel + bullets → declaratieve bewering + visueel bewijs
+**Winst**: kernboodschap direct duidelijk, minder voorleesgedrag, minder misconcepties
+
+> **Let op**: de percentages bij transformaties 1-6 zijn indicatieve
+> praktijkrichtwaarden, geen onderzoeksresultaten. Onderbouwde benchmarks
+> staan in [`quick-reference.md`](quick-reference.md) (Empirische benchmarks).
 
 ---
 
