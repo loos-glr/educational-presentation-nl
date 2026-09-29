@@ -86,7 +86,7 @@ Deze checklist is je laatste stap vóór het presenteren. Gebruik hem om te vali
 | Criterium | Gecontroleerd | Punten |
 |---------|---------|--------|
 | Maximaal 2 lettertypen gebruikt in de hele presentatie | ☐ | /2 |
-| Samenhangend kleurenpalet (60-30-10-regel) | ☐ | /2 |
+| Samenhangend kleurenpalet volgens de GLR-standaard (60-30-10) | ☐ | /2 |
 | Consistente plaatsing van titels/elementen | ☐ | /1 |
 
 ### 3.3 Uitlijning
@@ -110,12 +110,15 @@ Deze checklist is je laatste stap vóór het presenteren. Gebruik hem om te vali
 
 ## SECTIE 4: Typografie (12 punten)
 
+Standaardstijl: Space Grotesk (titels/labels) + Hanken Grotesk (broodtekst).
+Zie [`design-system.md`](design-system.md) voor de volledige schaal.
+
 | Criterium | Gecontroleerd | Punten |
 |---------|---------|--------|
-| **Lettertype**: Alleen sans-serif (Arial, Calibri, Helvetica) | ☐ | /2 |
+| **Lettertype**: Space Grotesk + Hanken Grotesk, of consistente Arial-fallback | ☐ | /2 |
 | **Minimale grootte**: Alle tekst ≥ 24pt | ☐ | /3 |
 | **Titelgrootte**: Titels tussen 36-44pt | ☐ | /1 |
-| **Leesbaarheid**: Geen ALL CAPS (behalve acroniemen) | ☐ | /1 |
+| **Leesbaarheid**: Geen ALL CAPS in titels/broodtekst (korte labels/badges uitgezonderd) | ☐ | /1 |
 | **Leesbaarheid**: Geen onderstreping (behalve hyperlinks) | ☐ | /1 |
 | **Leesbaarheid**: Vet voor nadruk (niet alleen kleur) | ☐ | /1 |
 | **Uitlijning**: Broodtekst links uitgelijnd | ☐ | /2 |
@@ -131,17 +134,21 @@ Deze checklist is je laatste stap vóór het presenteren. Gebruik hem om te vali
 
 | Criterium | Gecontroleerd | Punten |
 |---------|---------|--------|
-| **60-30-10-regel**: 60% achtergrond, 30% secundair, 10% accent | ☐ | /2 |
-| **Harmonie**: Samenhangend palet (max. 3-5 kleuren) | ☐ | /1 |
+| **60-30-10-regel**: 60% wit/gebroken wit, 30% zwart (structuur), 10% lime (`#A6E22E`/`#76B800`) + kobalt (`#002BFF`) | ☐ | /2 |
+| **Harmonie**: Samenhangend GLR-palet (canvas, zwart, lime, kobalt) | ☐ | /1 |
 
 ### 5.2 Toegankelijkheid (WCAG 2.1 AA)
+
+Gebruik uitsluitend de geverifieerde combinaties uit
+[`design-system.md`](design-system.md): zwart op lime 13,5:1 · lime op zwart
+13,5:1 · kobalt op wit 7,5:1 · groen op wit alleen `#416900` (6,5:1).
 
 | Criterium | Gecontroleerd | Punten |
 |---------|---------|--------|
 | **Normale tekst**: Contrast ≥ 4,5:1 (tekst < 18pt) | ☐ | /3 |
 | **Grote tekst**: Contrast ≥ 3:1 (tekst ≥ 18pt of 14pt vet) | ☐ | /2 |
 | **Grafieken**: Contrast ≥ 3:1 voor belangrijke grafische elementen | ☐ | /1 |
-| **Kleurenblindheid**: Geen rood/groen- of blauw/geel-combinaties | ☐ | /1 |
+| **Kleurenblindheid**: Geen rood/groen- of blauw/geel-combinaties; lime altijd met vorm/label én zwart-witcontrast | ☐ | /1 |
 
 **Score sectie 5: _____ / 10**
 
@@ -221,7 +228,7 @@ Deze checklist is je laatste stap vóór het presenteren. Gebruik hem om te vali
 | Criterium | Gecontroleerd | Punten |
 |---------|---------|--------|
 | **Contrast**: Ratio's gevalideerd met tool (4,5:1 / 3:1) | ☐ | /3 |
-| **Lettertype**: Sans-serif, groot (≥24pt) | ☐ | /2 |
+| **Lettertype**: Space Grotesk/Hanken Grotesk (of consistente fallback), groot (≥24pt) | ☐ | /2 |
 | **Eenvoud**: Geen overmatig cursief of afleidende animaties | ☐ | /1 |
 | **Eenvoudige taal**: Directe en eenvoudige taal | ☐ | /1 |
 

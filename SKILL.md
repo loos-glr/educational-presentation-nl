@@ -8,7 +8,9 @@ description: >
   Assertion-Evidence-framework, ABT-narratief en Duarte's Sparkline, Peer
   Instruction, Gagné's 9 instructiegebeurtenissen, Bloom's herziene
   taxonomie, C.R.A.P.-ontwerpprincipes en WCAG 2.1
-  AA-toegankelijkheidsnormen toe. Activeer bij verzoeken om (1) educatieve of
+  AA-toegankelijkheidsnormen toe. Presentaties krijgen standaard de GLR Media
+  Creative-huisstijl (Space Grotesk/Hanken Grotesk, electric-lime accent).
+  Activeer bij verzoeken om (1) educatieve of
   trainingspresentaties te maken, (2) slides voor les of workshops te
   ontwerpen, (3) bestaande educatieve presentaties te verbeteren, (4) inhoud om
   te zetten naar visuele presentaties, (5) toegankelijke en inclusieve
@@ -17,7 +19,7 @@ description: >
 license: MIT
 metadata:
   author: Loos
-  version: 1.1.0
+  version: 1.2.0
   language: nl
   based_on: "guia-matthieu/clawfu-skills — educational-presentation"
 ---
@@ -199,22 +201,38 @@ Groepeer verwante items dicht bij elkaar:
 
 ## Typografie & kleur
 
+### Standaardstijl: GLR Media Creative
+Alle presentaties gebruiken standaard het GLR-ontwerpsysteem. Volledige
+kleur-, typografie- en spatiëringstokens en de geverifieerde contrasttabellen
+staan in [`references/design-system.md`](references/design-system.md).
+
 ### Typografieregels
-- **Lettertype**: Alleen sans-serif (Arial, Calibri, Verdana, Helvetica)
-- **Grootte**: Hoofdtitel 36–44pt, broodtekst minimaal 24–32pt
+- **Titels, koppen & labels**: Space Grotesk (600–700), negatieve tracking
+- **Broodtekst**: Hanken Grotesk (400) — beide sans-serif, max. 2 lettertypen
+- **Grootte**: Hoofdtitel 36–44pt (hero 48–64pt), broodtekst minimaal 24pt
 - **Uitlijning**: Lijn alle broodtekst links uit, nooit centreren
-- **Nadruk**: Gebruik vet, nooit onderstreept of ALL CAPS
+- **Nadruk**: Gebruik vet of kleurcontrast, nooit onderstreept
+- **ALL CAPS**: alleen voor korte labels/badges (≥ 24pt, ruime tracking),
+  nooit voor titels of broodtekst
+- **Fallback**: als Space Grotesk/Hanken Grotesk niet beschikbaar zijn (bijv.
+  in PowerPoint), gebruik dan Arial voor de héle presentatie (repetitie)
 
-### Kleurstrategie
-**60-30-10-regel**:
-- 60% primair (neutrale achtergrond: wit, gebroken wit, donkergrijs)
-- 30% secundair (structurele elementen: titelbalken, zijbalken)
-- 10% accent (kernwoorden, knoppen, pijlen — fel, contrasterend)
+### Kleurstrategie: GLR-palet met de 60-30-10-regel
+- 60% canvas: wit `#FFFFFF` of gebroken wit `#F4F4F6` / `#faf9fd`
+- 30% structuur: zwart `#000000` / `#111111` (titels, randen, inverted blokken)
+- 10% accent: electric-lime `#A6E22E` of `#76B800` (kernwoorden, badges,
+  markeringen); kobalt `#002BFF` spaarzaam voor specifieke callouts
 
-**Toegankelijkheid (WCAG 2.1 AA)**:
-- Contrastverhouding 4,5:1 voor normale tekst
-- Contrastverhouding 3:1 voor grote tekst (18pt+)
+**Toegankelijkheid (WCAG 2.1 AA)** — geverifieerde combinaties:
+- Zwart op electric-lime (`#000000` op `#A6E22E`): **13,5:1**
+- Electric-lime op zwart (`#A6E22E` op `#000000`): **13,5:1**
+- Zwart op `#76B800`: **8,6:1** · kobalt op wit (`#002BFF`): **7,5:1**
+- Groene tekst op wit: gebruik `#416900` (**6,5:1**), nooit `#76B800`
+  (**2,4:1 — verboden**), ook niet voor grote tekst
+- Nooit witte tekst op `#76B800` (2,4:1); nooit kleur als enige betekenisdrager
 - Gebruik nooit rood/groen- of blauw/geel-combinaties
+- Volledige tabel met alle geverifieerde en verboden combinaties:
+  [`references/design-system.md`](references/design-system.md)
 
 **Tools**: WebAIM Contrast Checker, Adobe Color, Coolors
 
@@ -430,14 +448,14 @@ Controleer vóór presentatie:
 - [ ] Ruime witruimte op elke slide
 
 ### Typografie ✓
-- [ ] Sans-serif lettertypen gebruikt
+- [ ] Space Grotesk (titels/labels) + Hanken Grotesk (broodtekst) gebruikt
 - [ ] Maximaal 2 lettertypen
 - [ ] Alle tekst minimaal 24pt
 - [ ] Broodtekst links uitgelijnd
 
 ### Kleur ✓
-- [ ] 60-30-10-regel toegepast
-- [ ] Alle tekst voldoet aan contrastverhouding 4,5:1
+- [ ] 60-30-10-regel met het GLR-palet toegepast (60% wit, 30% zwart, 10% accent)
+- [ ] Alle tekst voldoet aan contrastverhouding 4,5:1 (geverifieerde combinaties)
 - [ ] Geen rood/groen- of blauw/geel-combinaties
 
 ### Multimedia ✓
@@ -482,7 +500,7 @@ Deze skill bevat gedetailleerde referentiebestanden voor specifieke behoeften:
 - Gagné's 9 in 9 slides
 - C.R.A.P. in 4 vragen
 - Typografie-snelregels
-- 60-30-10-kleurregel
+- 60-30-10-kleurregel met het GLR-palet
 - Gids voor progressive disclosure
 - 5 must-haves voor toegankelijkheid
 - Top 5 fouten om te vermijden
@@ -492,6 +510,17 @@ Deze skill bevat gedetailleerde referentiebestanden voor specifieke behoeften:
 - Peer Instruction-cyclus
 - Bloom 2D (niveau → slidestrategie → interactie)
 - Empirische benchmarks
+
+### [`references/design-system.md`](references/design-system.md)
+**Gebruik wanneer**: je de standaardstijl (GLR Media Creative) toepast of controleert
+**Bevat**:
+- Volledige kleur-, typografie- en spatiëringstokens (YAML)
+- Merk- en stijlprincipes (High-Contrast Brutalist Modernism)
+- Typografische schaal en px→pt-mapping voor slides
+- 60-30-10-vertaling naar het GLR-palet
+- Geverifieerde WCAG-contrastcombinaties en verboden combinaties
+- Componenten (badges, kaarten, lijsten, ticker, mediakaders)
+- Raster- en spatiëringsregels voor 16:9-slides
 
 ### [`references/slide-templates.md`](references/slide-templates.md)
 **Gebruik wanneer**: je kant-en-klare templates wilt voor specifieke slidettypen
@@ -551,7 +580,8 @@ Wanneer de agent daadwerkelijk .pptx-bestanden moet maken:
 
 **Workflow**:
 1. Gebruik de educational-presentation-nl skill om structuur en inhoud te plannen
-2. Maak gedetailleerde slide-opzetten met sprekersnotities
+2. Maak gedetailleerde slide-opzetten met sprekersnotities in de
+   GLR-standaardstijl ([`references/design-system.md`](references/design-system.md))
 3. Gebruik de pptx-skill om het bestand technisch te realiseren
 4. Keer terug naar deze skill voor de eindvalidatie
 
@@ -653,7 +683,7 @@ validatiechecklist is daar minder relevant dan bij leergerichte presentaties.
 name: educational-presentation-nl
 category: content
 subcategory: presentations
-version: 1.1.0
+version: 1.2.0
 author: Loos
 source_expert: Richard Mayer, Robert Gagné, Robin Williams, Michael Alley, Randy Olson, Nancy Duarte, Eric Mazur
 source_work: Multimedia Learning, Conditions of Learning, The Non-Designer's Design Book, The Craft of Scientific Presentations, Houston We Have a Narrative, Resonate, Peer Instruction

@@ -10,6 +10,15 @@ Deze templates zijn kant-en-klare modellen voor de meest voorkomende slidettypes
 3. Vervang de placeholder-inhoud
 4. Valideer met de snelle checklist
 
+> **Standaardhuisstijl (GLR Media Creative)**: alle templates gebruiken
+> standaard Space Grotesk (titels/labels), Hanken Grotesk (broodtekst),
+> 0px-hoeken en het GLR-palet — canvas wit/gebroken wit, structuur zwart,
+> accent electric-lime `#A6E22E` (of `#76B800`), kobalt `#002BFF` spaarzaam.
+> Geverifieerd: zwart op lime en lime op zwart (13,5:1), kobalt op wit (7,5:1),
+> groen op wit alleen `#416900` (6,5:1). Verboden: wit op `#76B800` en
+> `#76B800`/`#A6E22E` als tekst op wit (2,4:1 / 1,6:1).
+> Details: [`design-system.md`](design-system.md).
+
 ---
 
 ## CATEGORIE 1: Openingsslides (Gebeurtenis 1 van Gagné)
@@ -864,7 +873,7 @@ eindig met een concrete call-to-action.]
 ### Aanpasbare variabelen
 
 ✅ **Aan te passen aan de context**:
-- Accentkleur (volgens merk)
+- Accentkleur (standaard: GLR electric-lime `#A6E22E`; pas alleen aan volgens merk)
 - Specifieke afbeeldingen
 - Inhoudstekst
 - Iconen (samenhangende stijl)

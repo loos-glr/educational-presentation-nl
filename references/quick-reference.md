@@ -115,29 +115,37 @@ P - Nabijheid  → Verwante elementen = samen geplaatst?
 
 ---
 
-## 🔤 Typografie - snelregels
+## 🔤 Typografie - snelregels (GLR-standaard)
 
 ```
-✅ WEL                         ❌ NIET
-─────────────────────────────────────────
-Sans-serif (Arial, Calibri)   Times New Roman
-≥ 24pt (broodtekst)           < 20pt
-≥ 36pt (titels)               Gecentreerd (broodtekst)
-Links uitgelijnd              ALL CAPS
-Vet voor nadruk               Onderstreept (= link)
-Max 2 lettertypen             5+ lettertypen
+✅ WEL                              ❌ NIET
+──────────────────────────────────────────────
+Space Grotesk (titels/labels)      Times New Roman
+Hanken Grotesk (broodtekst)        Meer dan 2 lettertypen
+≥ 24pt (broodtekst)                < 20pt
+≥ 36pt (titels)                    Gecentreerd (broodtekst)
+Links uitgelijnd                   ALL CAPS in titel/tekst
+Vet voor nadruk                    Onderstreept (= link)
+ALL CAPS alleen in badges          Groen (#76B800) als tekst op wit
 ```
+
+**Fallback**: geen Space Grotesk/Hanken Grotesk beschikbaar? Gebruik dan Arial
+voor de hele presentatie (repetitie).
 
 ---
 
-## 🌈 Kleuren - 60-30-10-regel
+## 🌈 Kleuren - 60-30-10 met het GLR-palet
 
 ```
-60% → Achtergrond (wit, lichtgrijs)
-30% → Secundair (structuur)
-10% → Accent (highlight)
+60% → Canvas: wit #FFFFFF / gebroken wit #F4F4F6
+30% → Structuur: zwart #000000 / #111111
+10% → Accent: electric-lime #A6E22E of #76B800;
+       kobalt #002BFF spaarzaam (specifieke callouts)
 
 Minimumcontrast: 4,5:1
+✅ Zwart op lime (13,5:1) · lime op zwart (13,5:1)
+✅ Kobalt op wit (7,5:1) · groen op wit → #416900 (6,5:1)
+❌ Wit op #76B800 (2,4:1) · #76B800 als tekst op wit (2,4:1, ook groot)
 Tool: webaim.org/contrastchecker
 ```
 
