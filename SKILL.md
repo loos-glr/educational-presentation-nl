@@ -4,8 +4,10 @@ description: >
   Maak van de agent een expert in evidence-based educatief presentatieontwerp.
   Gebruik bij het ontwerpen van presentaties voor onderwijs, training of
   leercontexten waarin retentie en begrip belangrijk zijn. Past Cognitive Load
-  Theory, Mayers 12 principes voor multimediaal leren, Gagné's 9
-  instructiegebeurtenissen, C.R.A.P.-ontwerpprincipes en WCAG 2.1
+  Theory, Mayers 12 principes voor multimediaal leren, het
+  Assertion-Evidence-framework, ABT-narratief en Duarte's Sparkline, Peer
+  Instruction, Gagné's 9 instructiegebeurtenissen, Bloom's herziene
+  taxonomie, C.R.A.P.-ontwerpprincipes en WCAG 2.1
   AA-toegankelijkheidsnormen toe. Activeer bij verzoeken om (1) educatieve of
   trainingspresentaties te maken, (2) slides voor les of workshops te
   ontwerpen, (3) bestaande educatieve presentaties te verbeteren, (4) inhoud om
@@ -15,7 +17,7 @@ description: >
 license: MIT
 metadata:
   author: Loos
-  version: 1.0.0
+  version: 1.1.0
   language: nl
   based_on: "guia-matthieu/clawfu-skills — educational-presentation"
 ---
@@ -102,6 +104,67 @@ Elke educatieve presentatie MOET deze structuur volgen:
 - Praktijkprobleem om op te lossen
 
 **Voor gedetailleerde templates per gebeurtenis**, lees [`references/slide-templates.md`](references/slide-templates.md).
+
+---
+
+## Macroverhaal: ABT & Sparkline
+
+Gagné bepaalt *welke* leerfasen een presentatie doorloopt; ABT en Sparkline bepalen *hoe* je die fasen tot één verhaal rijgt.
+
+### ABT (Randy Olson): En-Maar-Daarom
+
+Eén kernzin met drie delen:
+- **EN** (context): de bestaande situatie en gedeelde basiskennis
+- **MAAR** (spanning): het probleem, de anomalie of de kennislacune
+- **DAAROM** (oplossing): jouw bevinding, aanpak of takeaway
+
+Vb: "Teams gebruiken al jaren bullet-slides [EN], maar het publiek onthoudt er te weinig van [MAAR], daarom werkt deze training met bewering + visueel bewijs [DAAROM]."
+
+**Twee anti-patronen vermijden**:
+1. **En-en-en (AAA)**: eindeloze opsomming zonder probleem → pure ruis en desinteresse
+2. **Ondanks-echter-behalve**: te veel caveats en zijpaden → verwarring
+
+### Sparkline (Nancy Duarte): Wat Is ↔ Wat Zou Kunnen Zijn
+
+- **Wat Is**: de huidige realiteit, het probleem, de status quo
+- **Wat Zou Kunnen Zijn**: de mogelijke toekomst, de oplossing, het verhoogde model
+- Slinger systematisch heen en weer: spanning → oplossing → nieuwe spanning → oplossing
+- Eindig met de **New Bliss**: de ultieme waarde, impact en transformatie als het idee wordt omarmd
+
+### Integratie met Gagné
+
+- **ABT** = de rode draad over de hele presentatie (de MAAR is je openingshaak, de DAAROM is je kernboodschap)
+- **Sparkline** = de ritmiek binnen elke module (contrasteer probleem en oplossing per blok)
+- **Gagné** = de pedagogische volgorde (aandacht → doelen → … → transfer)
+
+---
+
+## Micro-ontwerp: Assertion-Evidence (AE)
+
+Het Assertion-Evidence-framework (Michael Alley, Penn State) vervangt bullets door één **declaratieve bewering** in de titel, ondersteund door **visueel bewijs**. Dit is de standaard voor alle inhoudsslides.
+
+### De 3 regels
+
+1. **Regel 1 — Declaratieve titelbewering**: de titel is een volledige zin die de kernboodschap van de slide uitspreekt (max. 12–15 woorden, 1–2 regels).
+   - ❌ "Onderzoeksresultaten" → ✅ "Studenten onthouden 40% meer met gesproken uitleg"
+2. **Regel 2 — Visueel bewijs in de body**: vervang bullets volledig door direct visueel bewijs (diagrammen, grafieken, foto's, modellen). Bodytekst mag alleen als korte callout direct bij het visuele element.
+3. **Regel 3 — Extempore vertelling**: het visuele bewijs is het anker voor vrij vertelde uitleg. Zonder tekstblokken is verbatim voorlezen onmogelijk.
+
+### Uitzondering (blend-regel)
+
+- **Inhoudsslides** → altijd AE: declaratieve titel + visueel bewijs
+- **Overgangs-, sectie- en agendaslides** → topic-titels toegestaan (bijv. "Deel 2: Analyse")
+
+### Notes-off transitie
+
+- Gebruik Presenter View-notities als gesproken prompts, niet als script
+- Gebruik de callouts op de slide als retrieval cues
+- Oefen de vertelling 2–3 keer hardop voordat je presenteert
+
+### Empirisch bewijs
+
+- Begrip: ~59% (AE) vs. ~42% (topic-bullets) in experimentele studies (p < 0,01)
+- Tot 10× minder misconcepties bij technische onderwerpen
 
 ---
 
@@ -194,6 +257,39 @@ Groepeer verwante items dicht bij elkaar:
 
 ---
 
+## Interactieve pedagogiek: Bloom & Peer Instruction
+
+### Bloom's herziene taxonomie (Anderson & Krathwohl, 2001)
+
+Kies per leerdoel zowel het cognitieve niveau als de kennisdimensie:
+
+**Kennisdimensies**: feitelijk (termen en losse feiten), conceptueel (relaties en modellen), procedureel (vaardigheden en methoden), metacognitief (eigen leerstrategie).
+
+| Niveau | Werkwoorden | Slidestrategie | Interactie |
+|--------|-------------|----------------|------------|
+| Onthouden | benoemen, opsommen, definiëren, labelen | labels en callouts op eenvoudige diagrammen | snelle herkenningstoets |
+| Begrijpen | uitleggen, samenvatten, classificeren | AE-visuals, schematische workflows | pair-share-samenvatting |
+| Toepassen | toepassen, berekenen, uitvoeren | procedurele workflows, realistische casussen | oefenen met een nieuwe casus |
+| Analyseren | vergelijken, ontleden, categoriseren | vergelijkende grafieken, analysematrices | data-analyse, oorzaakanalyse |
+| Evalueren | beoordelen, beargumenteren, bekritiseren | trade-off-tabellen, evidencetabellen | debat of stemming over oplossingen |
+| Creëren | ontwerpen, construeren, voorstellen | open kaders, systeemkaarten | collaboratief ontwerpen |
+
+**Afstemmingsregel**: het werkwoord van het leerdoel, de slidedesign-strategie en de interactievorm liggen op hetzelfde cognitieve niveau.
+
+### Peer Instruction (Eric Mazur)
+
+Interleaveer elke 10–15 minuten een actief checkpoint:
+
+1. **Korte uitleg** (10–15 min) met AE-slides
+2. **Concepttoets**: meerkeuzevraag op Analyze- of Evaluate-niveau
+3. **Stil nadenken + individueel stemmen** (zonder overleg)
+4. **Overleggen in tweetallen** met verschillende antwoorden (2–3 min): leg je redenering uit
+5. **Herstemmen + gerichte uitleg** met een visual die de misconceptie wegneemt
+
+Peer Instruction-checkpoints zijn de concrete invulling van Gagné gebeurtenis 6 (prestatie uitlokken).
+
+---
+
 ## Toegankelijkheid (WCAG 2.1 AA)
 
 ### Verplichte vereisten
@@ -233,6 +329,10 @@ Groepeer verwante items dicht bij elkaar:
 **Probleem**: Alle tekst gecentreerd op de slide
 **Oplossing**: Lijn alle broodtekst links uit, gebruik een onzichtbaar raster
 
+### ❌ De nietszeggende titel
+**Probleem**: Generieke titels ("Resultaten", "Analyse") laten het publiek zelf de kernboodschap zoeken
+**Oplossing**: Formuleer een declaratieve titelbewering die de takeaway uitspreekt (max. 12–15 woorden)
+
 **Voor gedetailleerde voor/na-transformaties**, lees [`references/before-after.md`](references/before-after.md).
 
 ---
@@ -240,16 +340,17 @@ Groepeer verwante items dicht bij elkaar:
 ## Workflow: een presentatie maken
 
 ### Stap 1: Plan de structuur (5–10 minuten)
-1. Definieer leerdoelen (meetbare actiewerkwoorden)
-2. Maak een opzet met Gagné's 9 gebeurtenissen
-3. Identificeer kernbegrippen die voorafgaande uitleg nodig hebben
-4. Plan oefenmomenten en feedback
+1. Formuleer de ABT-kernzin (EN → MAAR → DAAROM) als rode draad
+2. Definieer leerdoelen (meetbare actiewerkwoorden volgens Bloom)
+3. Maak een opzet met Gagné's 9 gebeurtenissen
+4. Identificeer kernbegrippen die voorafgaande uitleg nodig hebben
+5. Plan oefenmomenten, Peer Instruction-checkpoints (elke 10–15 min) en feedback
 
 ### Stap 2: Maak inhoudsslides (30–60 minuten)
-1. Begin met slidetitels (één duidelijk idee per slide)
-2. Voeg eerst relevante visuals toe (niet als decoratie)
-3. Voeg minimale tekst toe (alleen kernwoorden, geen zinnen)
-4. Schrijf gedetailleerde sprekersnotities (wat je gaat zeggen)
+1. Schrijf per slide een declaratieve titelbewering (max. 12–15 woorden; zie Assertion-Evidence)
+2. Voeg direct visueel bewijs toe dat de titelbewering ondersteunt (geen decoratie)
+3. Voeg alleen korte callouts toe bij het visuele element (geen bullets)
+4. Schrijf gedetailleerde sprekersnotities als gesproken prompts (geen script)
 5. Pas C.R.A.P.-principes consequent toe
 
 ### Stap 3: Implementeer progressive disclosure (10–20 minuten)
@@ -264,7 +365,7 @@ Groepeer verwante items dicht bij elkaar:
 4. Bevestig dat alle afbeeldingen alt-tekst hebben
 5. Test op het echte presentatiescherm
 
-**Voor de uitgebreide validatiechecklist (174 punten)**, lees [`references/validation.md`](references/validation.md).
+**Voor de uitgebreide validatiechecklist (208 punten)**, lees [`references/validation.md`](references/validation.md).
 
 ---
 
@@ -292,6 +393,16 @@ Wat is het verhaal van je data?
 └─ Correlatie tussen variabelen → Spreidingsdiagram
 ```
 
+### "Is mijn titel goed?"
+
+```
+Is de titel een volledige bewering met de takeaway?
+├─ JA → AE-titel ✅ (max. 12–15 woorden, 1–2 regels)
+└─ NEE → Is het een overgangs-, sectie- of agendaslide?
+   ├─ JA → Topic-titel toegestaan ✅
+   └─ NEE → Herschrijf als declaratieve bewering ✅
+```
+
 ---
 
 ## Snelle validatiechecklist
@@ -300,11 +411,14 @@ Controleer vóór presentatie:
 
 ### Structuur ✓
 - [ ] Volgt Gagné's 9 gebeurtenissen
+- [ ] ABT-kernzin bepaalt de rode draad (EN → MAAR → DAAROM)
 - [ ] Duidelijke leerdoelen vermeld
 - [ ] Bevat oefenmoment en feedback
+- [ ] Peer Instruction-checkpoints ingepland (elke 10–15 min)
 
 ### Cognitieve belasting ✓
 - [ ] Geen slide heeft meer dan één hoofdidee
+- [ ] Inhoudsslides volgen Assertion-Evidence (titel = bewering, body = visueel bewijs)
 - [ ] Complexe inhoud is passend opgedeeld in chunks
 - [ ] Alle decoratieve elementen verwijderd (Coherentie)
 - [ ] Geen tekstmuren + vertelling (Redundantie)
@@ -351,6 +465,8 @@ Controleer vóór presentatie:
 4. **"Schoon is niet leeg; schoon is gefocust."** (Witruimte)
 5. **"Mooi is efficiënt."** (Cognitive Load Theory)
 6. **"Ontwerp voor iedereen, of ontwerp voor niemand."** (Toegankelijkheid)
+7. **"De titel is de conclusie."** (Assertion-Evidence)
+8. **"Denken, stemmen, overleggen."** (Peer Instruction)
 
 ---
 
@@ -371,6 +487,11 @@ Deze skill bevat gedetailleerde referentiebestanden voor specifieke behoeften:
 - 5 must-haves voor toegankelijkheid
 - Top 5 fouten om te vermijden
 - Gids voor grafiekkeuze
+- Assertion-Evidence in 3 regels
+- ABT & Sparkline in 2 minuten
+- Peer Instruction-cyclus
+- Bloom 2D (niveau → slidestrategie → interactie)
+- Empirische benchmarks
 
 ### [`references/slide-templates.md`](references/slide-templates.md)
 **Gebruik wanneer**: je kant-en-klare templates wilt voor specifieke slidettypen
@@ -381,12 +502,16 @@ Deze skill bevat gedetailleerde referentiebestanden voor specifieke behoeften:
 - Templates voor oefening, feedback, beoordeling
 - Templates voor transfer/toepassing
 - Speciale slides (sectiescheiding, samenvatting, Q&A, bedankt, referenties)
+- Template 4E: Assertion-Evidence-inhoudsslide (standaard)
+- Template 6C: Concepttoets (Peer Instruction)
+- Template 10F: "New Bliss"-afsluiting (Sparkline)
 - Keuzegids per template
 
 ### [`references/before-after.md`](references/before-after.md)
 **Gebruik wanneer**: je concrete transformaties wilt zien of veelgemaakte fouten wilt begrijpen
 **Bevat**:
-- 6 grote transformatievoorbeelden
+- 7 grote transformatievoorbeelden
+- Transformatie: topic-titel → bewering + visueel bewijs (Assertion-Evidence)
 - Cognitieve analyse van problemen
 - Stapsgewijze toegepaste oplossingen
 - C.R.A.P.-Mayer-scoring voor validatie
@@ -395,14 +520,16 @@ Deze skill bevat gedetailleerde referentiebestanden voor specifieke behoeften:
 ### [`references/validation.md`](references/validation.md)
 **Gebruik wanneer**: je uitgebreide validatie vóór presentatie nodig hebt
 **Bevat**:
-- Volledige validatiechecklist van 174 punten
-- 13 evaluatiesecties met scoring
+- Volledige validatiechecklist van 208 punten
+- 15 evaluatiesecties met scoring
 - Pedagogische structuur (20 pt)
 - Mayer-principes (24 pt)
 - C.R.A.P.-ontwerp (16 pt)
 - Typografie, kleuren, visuals (40 pt)
 - Animaties, witruimte, toegankelijkheid (36 pt)
-- Inhoud, duur, storytelling, consistentie (38 pt)
+- Inhoud, duur, narratief, consistentie (50 pt)
+- Assertion-Evidence (12 pt)
+- Actieve verwerking & Peer Instruction (10 pt)
 - Scoresysteem: 95–100% = Uitmuntend, 85–94% = Zeer goed, 70–84% = Acceptabel, <70% = Herziening nodig
 
 ---
@@ -436,7 +563,12 @@ Wanneer de agent daadwerkelijk .pptx-bestanden moet maken:
 - Cognitive Load Theory (Sweller)
 - Mayers Cognitive Theory of Multimedia Learning
 - Gagné's Nine Events of Instruction
-- Bloom's Taxonomy
+- Bloom's herziene taxonomie (Anderson & Krathwohl)
+
+**Presentatie- en verhaalframeworks**:
+- Assertion-Evidence (Michael Alley)
+- ABT-narratief (Randy Olson) & Sparkline (Nancy Duarte)
+- Peer Instruction (Eric Mazur)
 
 **Ontwerpprincipes**:
 - Robin Williams' C.R.A.P.-principes
@@ -446,6 +578,9 @@ Wanneer de agent daadwerkelijk .pptx-bestanden moet maken:
 - "Presentation Zen" van Garr Reynolds
 - "Slide:ology" van Nancy Duarte
 - "Multimedia Learning" van Richard E. Mayer
+- "The Craft of Scientific Presentations" van Michael Alley
+- "Houston, We Have a Narrative" van Randy Olson
+- "Resonate" van Nancy Duarte
 
 ---
 
@@ -495,6 +630,10 @@ Wanneer de agent daadwerkelijk .pptx-bestanden moet maken:
 - Entertainment-presentaties → Engagement boven retentie
 - Infographics → Statisch ontwerp, niet progressief
 
+**Wel bruikbaar voor keynotes en strategische verhalen**: gebruik dan vooral
+ABT & Sparkline voor de narratieve boog; de volledige cognitieve
+validatiechecklist is daar minder relevant dan bij leergerichte presentaties.
+
 ---
 
 ## Iteratiegids
@@ -514,15 +653,15 @@ Wanneer de agent daadwerkelijk .pptx-bestanden moet maken:
 name: educational-presentation-nl
 category: content
 subcategory: presentations
-version: 1.0.0
+version: 1.1.0
 author: Loos
-source_expert: Richard Mayer, Robert Gagné, Robin Williams
-source_work: Multimedia Learning, Conditions of Learning, The Non-Designer's Design Book
+source_expert: Richard Mayer, Robert Gagné, Robin Williams, Michael Alley, Randy Olson, Nancy Duarte, Eric Mazur
+source_work: Multimedia Learning, Conditions of Learning, The Non-Designer's Design Book, The Craft of Scientific Presentations, Houston We Have a Narrative, Resonate, Peer Instruction
 difficulty: intermediate
 mode: cyborg
 language: nl
 based_on: guia-matthieu/clawfu-skills (educational-presentation)
-tags: [presentatie, educatie, training, cognitieve-belasting, mayer, gagne, toegankelijkheid]
+tags: [presentatie, educatie, training, cognitieve-belasting, mayer, gagne, assertion-evidence, storytelling, peer-instruction, toegankelijkheid]
 created: 2026-09-21
-updated: 2026-09-21
+updated: 2026-09-30
 ```
