@@ -297,6 +297,35 @@ de verbinding met het centrale concept uit]
 
 ---
 
+### Template 4E: Assertion-Evidence-inhoudsslide (standaard)
+
+```
+╔══════════════════════════════════════════════╗
+║  DE INTERVENTIEGROEP SCOORDE 22% HOGER       ║
+║  DAN DE CONTROLEGROEP                        ║
+║  (Declaratieve beweringstitel, 32-36pt,      ║
+║   links, max. 12-15 woorden, 1-2 regels)     ║
+╠══════════════════════════════════════════════╣
+║                                              ║
+║       [GRAFIEK / DIAGRAM / FOTO]             ║
+║       Direct visueel bewijs dat de           ║
+║       titelbewering aantoont (50-70%)        ║
+║                                              ║
+║   ① Callout bij datapunt (24pt)             ║
+║   ② Callout bij trendlijn (24pt)            ║
+║                                              ║
+╚══════════════════════════════════════════════╝
+
+SPREKERSNOTITIES:
+[Geen script: noteer 3-4 gesproken prompts. De callouts op de
+slide zijn je retrieval cues. Vertel vrij; lees niets voor.]
+```
+
+**Wanneer gebruiken**: alle inhoudsslides (standaard); uitzondering: overgangs-, sectie- en agendaslides
+**Toegepast principe**: Assertion-Evidence (regels 1-3), multimedia, ruimtelijke contiguïteit, modaliteit
+
+---
+
 ## CATEGORIE 5: Begeleiding/voorbeelden (Gebeurtenis 5 van Gagné)
 
 ### Template 5A: Uitgewerkt voorbeeld
@@ -469,6 +498,36 @@ feedback aan enkele paren]
 
 **Wanneer gebruiken**: om begrip te versterken door uitleg geven
 **Toegepast principe**: Peer teaching, elaboratie
+
+---
+
+### Template 6C: Concepttoets (Peer Instruction)
+
+```
+╔══════════════════════════════════════════════╗
+║  WELKE GRAFIEK ONDERSTEUNT DE TITELBEWERING  ║
+║  HET STERKST?                                ║
+║  (Vraag 28-32pt, links uitgelijnd)           ║
+╠══════════════════════════════════════════════╣
+║                                              ║
+║  A. [Grafiek 1]        B. [Grafiek 2]        ║
+║                                              ║
+║  C. [Grafiek 3]        D. [Grafiek 4]        ║
+║                                              ║
+║  (Visuals met labels 24pt+; 1 duidelijk      ║
+║   beste antwoord)                            ║
+╚══════════════════════════════════════════════╝
+
+SPREKERSNOTITIES:
+1. Stil nadenken (~1 min) - nog niet overleggen
+2. Individueel stemmen
+3. Tweetallen met verschillend antwoord overleggen (2-3 min)
+4. Herstemmen
+5. Gerichte uitleg met visueel bewijs (volgende slide)
+```
+
+**Wanneer gebruiken**: als actief checkpoint elke 10-15 minuten (Gagné gebeurtenis 6)
+**Toegepast principe**: Peer Instruction (Mazur), retrieval practice, actief leren
 
 ---
 
@@ -720,6 +779,30 @@ SPREKERSNOTITIES:
 
 ---
 
+### Template 10F: "New Bliss"-afsluiting (Sparkline)
+
+```
+╔══════════════════════════════════════════════╗
+║                                              ║
+║  [BEELD VAN DE GEWENSTE TOEKOMST]            ║
+║                                              ║
+║  STEL JE VOOR: VOLGENDE MAAND PRESENTEREN    ║
+║  ALLE TEAMS MET 60% MEER RETENTIE            ║
+║  (36-40pt, vet, over het beeld)              ║
+║                                              ║
+╚══════════════════════════════════════════════╝
+
+SPREKERSNOTITIES:
+[Sluit af met de New Bliss: de ultieme waarde als het publiek
+het idee omarmt. Koppel terug aan de ABT-kernzin (DAAROM) en
+eindig met een concrete call-to-action.]
+```
+
+**Wanneer gebruiken**: laatste inhoudelijke slide, vóór bedankt/contact
+**Toegepast principe**: Sparkline (Duarte), emotionele verbinding, call-to-action
+
+---
+
 ## SNELLE KEUZEGIDS
 
 **Welke template moet je gebruiken?**
@@ -735,6 +818,7 @@ SPREKERSNOTITIES:
 ├─ Voorkennis ophalen → Template 3A
 │
 ├─ Hoofdinhoud
+│  └─ Declaratieve bewering + visueel bewijs → Template 4E (standaard)
 │  └─ Concept + details → Template 4A
 │  └─ Vergelijking A vs. B → Template 4B
 │  └─ Stappenproces → Template 4C
@@ -748,6 +832,7 @@ SPREKERSNOTITIES:
 ├─ Oefening
 │  └─ Individueel → Template 6A
 │  └─ Groep → Template 6B
+│  └─ Concepttoets (Peer Instruction) → Template 6C
 │
 ├─ Feedback → Template 7A
 │
@@ -761,6 +846,7 @@ SPREKERSNOTITIES:
    └─ Vragen → Template 10C
    └─ Enkel cijfer → Template 10D
    └─ Bedankt → Template 10E
+   └─ New Bliss-afsluiting → Template 10F
 ```
 
 ---

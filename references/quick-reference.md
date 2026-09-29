@@ -13,15 +13,29 @@
 
 ```
 ❓ Heeft deze slide ÉÉN duidelijke boodschap?
-❓ Is er een relevante afbeelding/visueel?
-❓ Is de tekst minder dan 10 woorden?
+❓ Staat de kernboodschap als bewering in de titel? (AE)
+❓ Is er een relevant visueel bewijsstuk?
+❓ Is de bodytekst beperkt tot korte callouts?
 ❓ Is het lettertype ≥ 24pt?
 ❓ Is het contrast ≥ 4,5:1?
 ❓ Is alles uitgelijnd op een raster?
 ```
 
-**6 × ✅ = slide goedgekeurd**
-**<5 × ✅ = opnieuw bewerken**
+**7 × ✅ = slide goedgekeurd**
+**<6 × ✅ = opnieuw bewerken**
+
+---
+
+## 🧲 Assertion-Evidence in 3 regels (inhoudsslides)
+
+```
+1. Titel = declaratieve bewering (max. 12-15 woorden, 1-2 regels)
+2. Body = visueel bewijs + callouts (GEEN bullets)
+3. Vertelling = vrij gesproken; callouts als geheugensteun
+
+Uitzondering: overgangs-/sectie-/agendaslides mogen topic-titels houden.
+Bewijs: ~42% → ~59% begrip (p < 0,01); tot 10× minder misconcepties.
+```
 
 ---
 
@@ -57,6 +71,36 @@
 | 7 | Feedback | Oplossing + uitleg |
 | 8 | Beoordeling | Quiz / project |
 | 9 | Transfer | "Hoe ga je dit gebruiken…?" |
+
+---
+
+## 🧵 ABT & Sparkline in 2 minuten
+
+### ABT (Olson)
+```
+"Wij doen al X [EN], maar Y is het probleem [MAAR], daarom Z [DAAROM]."
+
+Anti-patroon 1: En-en-en → opsomming zonder probleem (ruis)
+Anti-patroon 2: Ondanks-echter-behalve → caveat-overload (verwarring)
+```
+
+### Sparkline (Duarte)
+```
+Wat Is ↔ Wat Zou Kunnen Zijn (herhaald), eindig met New Bliss.
+Spanning (probleem) → oplossing → nieuwe spanning → oplossing.
+```
+
+---
+
+## 🔄 Peer Instruction-cyclus (elke 10-15 min)
+
+```
+1. Korte uitleg met AE-slides (10-15 min)
+2. Concepttoets (Analyze-/Evaluate-niveau)
+3. Stil nadenken + individueel stemmen
+4. Overleggen in tweetallen met verschillend antwoord (2-3 min)
+5. Herstemmen + gerichte uitleg met visual
+```
 
 ---
 
@@ -295,18 +339,20 @@ Hiërarchie/organisatie        → Boomdiagram / stroomschema
 
 ---
 
-## 🎯 Actiewerkwoorden (Bloom's Taxonomy)
+## 🎯 Bloom 2D - compact (herziene taxonomie)
 
-### Basisniveau
-- Identificeren, Opsommen, Benoemen, Definiëren, Beschrijven
+**Kennisdimensies**: feitelijk | conceptueel | procedureel | metacognitief
 
-### Middenniveau
-- Uitleggen, Vergelijken, Classificeren, Samenvatten
+| Niveau | Slide-strategie | Interactie |
+|--------|-----------------|------------|
+| Onthouden | labels/callouts op eenvoudige diagrammen | snelle herkenningstoets |
+| Begrijpen | AE-visuals, schematische workflows | pair-share-samenvatting |
+| Toepassen | procedurele workflows, casussen | oefenen met nieuwe casus |
+| Analyseren | vergelijkende grafieken, matrices | data-analyse, oorzaakanalyse |
+| Evalueren | trade-off-/evidencetabellen | debat of stemming |
+| Creëren | open kaders, systeemkaarten | collaboratief ontwerpen |
 
-### Gevorderd niveau
-- Analyseren, Evalueren, Creëren, Ontwerpen, Beargumenteren
-
-**Leerdoel = Actiewerkwoord + Inhoud**
+**Leerdoel = Actiewerkwoord + Inhoud**, op hetzelfde niveau als de activiteit.
 
 Vb: "Analyseer de oorzaken van de Nederlandse Opstand"
 
@@ -367,7 +413,7 @@ Witruimte = visuele ademruimte = cognitieve helderheid
 ## 🚀 Workflow speed-run (30 min)
 
 ```
-Min 0-5   : Structuur (Gagné's 9)
+Min 0-5   : Structuur (ABT-kernzin + Gagné's 9)
 Min 5-10  : Inhoudsaudit (chunking)
 Min 10-20 : Slides maken (visueel + kernwoorden)
 Min 20-25 : Progressive disclosure
@@ -383,8 +429,10 @@ Min 28-30 : Toegankelijkheidscontrole
 1. "Slide ≠ autocue"
 2. "Als het niet dient, leidt het af"
 3. "1 slide, 1 idee, 1 minuut"
-4. "Spreken > Lezen"
-5. "Ontwerpen is onderwijzen"
+4. "De titel is de conclusie"
+5. "Spreken > Lezen"
+6. "Denken, stemmen, overleggen"
+7. "Ontwerpen is onderwijzen"
 ```
 
 ---
@@ -401,8 +449,11 @@ Presentatie 45 min → 40-50 slides
 
 ### "Hoeveel tekst?"
 ```
-Titel: 1 zin (5-10 woorden)
-Broodtekst: MAX 3-5 kernwoorden
+Inhoudsslide (AE):
+  Titel: declaratieve bewering (max. 12-15 woorden)
+  Body: visueel bewijs + callouts; GEEN bullets
+Overgangs-/agendaslide:
+  Titel: korte topic-titel mag
 Details: in sprekersnotities
 ```
 
@@ -450,7 +501,9 @@ Zo niet → lettertype te klein of te veel tekst
 ### Niveau 3: Expert
 ```
 + Gagné's 9 gebeurtenissen-structuur
-+ Storytelling
++ ABT-verhaallijn & Sparkline-ritmiek
++ Assertion-Evidence-titels
++ Peer Instruction-checkpoints
 + Volledige toegankelijkheid
 + Leerdoelen volgens Bloom
 ```
@@ -462,8 +515,10 @@ Zo niet → lettertype te klein of te veel tekst
 ```
 STRUCTUUR
 ☐ Volgt Gagné's 9 gebeurtenissen
+☐ ABT-kernzin klopt (EN → MAAR → DAAROM)
 ☐ Meetbare doelen (gebeurtenis 2)
 ☐ Oefening opgenomen (gebeurtenis 6)
+☐ Peer Instruction-checkpoints ingepland
 
 ONTWERP
 ☐ Max 2 lettertypen
@@ -473,6 +528,7 @@ ONTWERP
 
 COGNITIEF
 ☐ 1 idee per slide
+☐ Inhoudsslides: beweringstitel + visueel bewijs
 ☐ Geen tekst + vertelling
 ☐ Progressive disclosure toegepast
 
@@ -482,11 +538,14 @@ TOEGANKELIJKHEID
 ☐ Logische leesvolgorde
 ```
 
-**20/20 = klaar om te presenteren! 🎉**
+**Alles ✅ = klaar om te presenteren! 🎉**
 
 ---
 
 ## 📞 Snelle hulp
+
+**Titel te vaag?**
+→ Herschrijf als declaratieve bewering (AE)
 
 **Slide te vol?**
 → Chunk in 3 slides
@@ -505,22 +564,18 @@ TOEGANKELIJKHEID
 
 ---
 
-## 🎯 Prestatiecijfers
+## 🎯 Empirische benchmarks
 
 ```
-Traditionele slide:
-- Retentie: ~10%
-- Aandacht: ~40%
-- Cognitieve belasting: 90%
+Assertion-Evidence vs. topic-bullets (Alley e.a.):
+- Begrip: ~42% → ~59% (p < 0,01)
+- Tot 10× minder misconcepties (technische onderwerpen)
 
-Geoptimaliseerde slide (deze gids):
-- Retentie: ~65%
-- Aandacht: ~85%
-- Cognitieve belasting: 30%
+Actief leren (Mazur, Peer Instruction): oefening + feedback
+verhoogt de retentie ten opzichte van passief luisteren.
 
-= +550% retentie
-= +112% aandacht
-= -67% belasting
+Gebruik deze cijfers als indicatie, niet als exacte voorspelling.
+Vermijd ongefundeerde percentages in je eigen presentaties.
 ```
 
 ---
