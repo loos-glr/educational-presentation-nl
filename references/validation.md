@@ -236,19 +236,20 @@ Deze checklist is je laatste stap vóór het presenteren. Gebruik hem om te vali
 
 ---
 
-## SECTIE 10: Inhoud & duidelijkheid (14 punten)
+## SECTIE 10: Inhoud & duidelijkheid (16 punten)
 
 | Criterium | Gecontroleerd | Punten |
 |---------|---------|--------|
 | **Eén idee per slide**: Elke slide = 1 hoofdboodschap | ☐ | /3 |
 | **Duidelijke doelen**: Leerdoelen expliciet en meetbaar | ☐ | /2 |
 | **Bloom's Taxonomy**: Doelen gebruiken passende actiewerkwoorden | ☐ | /2 |
+| **Bloom-afstemming**: Werkwoord, slidedesign en activiteit op hetzelfde niveau (kennisdimensie meegenomen) | ☐ | /2 |
 | **Oefening opgenomen**: Mogelijkhe(i)d(en) tot actieve oefening aanwezig | ☐ | /2 |
 | **Feedback gegeven**: Verklarende feedback na oefening | ☐ | /2 |
 | **Transfer naar praktijk**: Toepassing op echte situaties besproken | ☐ | /2 |
 | **Kernbegrippen gedefinieerd**: Technisch vocabulaire vooraf aangeleerd | ☐ | /1 |
 
-**Score sectie 10: _____ / 14**
+**Score sectie 10: _____ / 16**
 
 ---
 
@@ -265,17 +266,21 @@ Deze checklist is je laatste stap vóór het presenteren. Gebruik hem om te vali
 
 ---
 
-## SECTIE 12: Storytelling & engagement (10 punten)
+## SECTIE 12: Storytelling & narratief (20 punten)
 
 | Criterium | Gecontroleerd | Punten |
 |---------|---------|--------|
 | **Verhaalstructuur**: Presentatie volgt een duidelijke verhaallijn | ☐ | /3 |
+| **ABT-kernzin**: EN (context) → MAAR (probleem) → DAAROM (oplossing) aanwezig | ☐ | /3 |
+| **Narratieve puurheid**: Geen En-en-en-opsomming of Ondanks-echter-behalve-structuur | ☐ | /2 |
+| **Sparkline**: Systematische oscillatie Wat Is ↔ Wat Zou Kunnen Zijn | ☐ | /3 |
+| **New Bliss**: Slot toont de ultieme waarde/impact van het idee | ☐ | /2 |
 | **Haak**: Pakkende opening die het publiek grijpt | ☐ | /2 |
 | **Voorbeelden/verhalen**: Concrete casussen, anekdotes, echte voorbeelden | ☐ | /2 |
 | **Emotionele connectie**: Momenten van emotionele impact opgenomen | ☐ | /1 |
 | **Duidelijke conclusie**: Memorabele conclusie met call-to-action | ☐ | /2 |
 
-**Score sectie 12: _____ / 10**
+**Score sectie 12: _____ / 20**
 
 ---
 
@@ -294,6 +299,32 @@ Deze checklist is je laatste stap vóór het presenteren. Gebruik hem om te vali
 
 ---
 
+## SECTIE 14: Assertion-Evidence (12 punten)
+
+| Criterium | Gecontroleerd | Punten |
+|---------|---------|--------|
+| **Titelbewering**: Elke inhoudsslide heeft een declaratieve titel met de takeaway | ☐ | /4 |
+| **Lengte**: Titelbeweringen max. 12-15 woorden (1-2 regels) | ☐ | /2 |
+| **Geen bullets**: Body bevat alleen visueel bewijs + callouts | ☐ | /3 |
+| **Bewijskracht**: Visueel bewijs ondersteunt de titelbewering direct | ☐ | /3 |
+
+**Score sectie 14: _____ / 12**
+
+---
+
+## SECTIE 15: Actieve verwerking & Peer Instruction (10 punten)
+
+| Criterium | Gecontroleerd | Punten |
+|---------|---------|--------|
+| **Cadans**: Checkpoint ingepland elke 10-15 minuten | ☐ | /3 |
+| **Concepttoets**: Vragen op Analyze-/Evaluate-niveau | ☐ | /3 |
+| **Cyclus**: Stemmen → overleggen (2-3 min) → herstemmen gevolgd | ☐ | /2 |
+| **Feedbackvisual**: Gerichte uitleg met visual die misconcepties wegneemt | ☐ | /2 |
+
+**Score sectie 15: _____ / 10**
+
+---
+
 ## EINDSCORE BEREKENEN
 
 | Sectie | Behaalde score | Maximale score | Percentage |
@@ -307,35 +338,37 @@ Deze checklist is je laatste stap vóór het presenteren. Gebruik hem om te vali
 | 7. Animaties | _____ | 8 | _____% |
 | 8. Witruimte | _____ | 8 | _____% |
 | 9. Toegankelijkheid | _____ | 20 | _____% |
-| 10. Inhoud & duidelijkheid | _____ | 14 | _____% |
+| 10. Inhoud & duidelijkheid | _____ | 16 | _____% |
 | 11. Duur & tempo | _____ | 6 | _____% |
-| 12. Storytelling | _____ | 10 | _____% |
+| 12. Storytelling & narratief | _____ | 20 | _____% |
 | 13. Consistentie | _____ | 8 | _____% |
-| **TOTAAL** | **_____** | **174** | **_____%** |
+| 14. Assertion-Evidence | _____ | 12 | _____% |
+| 15. Actieve verwerking & Peer Instruction | _____ | 10 | _____% |
+| **TOTAAL** | **_____** | **208** | **_____%** |
 
 ---
 
 ## SCORE-INTERPRETATIE
 
-### 🏆 165-174 punten (95-100%) - UITMUNTEND
+### 🏆 198-208 punten (95-100%) - UITMUNTEND
 **Gefeliciteerd!** Je presentatie is voorbeeldig.
 - Past de cognitieve principes strikt toe
 - Professioneel en toegankelijk ontwerp
 - Klaar om te presenteren zonder wijzigingen
 
-### 🎯 148-164 punten (85-94%) - ZEER GOED
+### 🎯 177-197 punten (85-94%) - ZEER GOED
 **Uitstekend werk!** Enkele kleine aanpassingen aanbevolen.
 - Sterk in de meeste domeinen
 - Enkele details om bij te schaven
 - Lichte revisie aangeraden vóór presentatie
 
-### ⚠️ 122-147 punten (70-84%) - ACCEPTABEL
+### ⚠️ 146-176 punten (70-84%) - ACCEPTABEL
 **Goed begin**, maar verbeteringen nodig.
 - Solide basis, maar lacunes vastgesteld
 - Focus op secties <80%
 - Revisie aanbevolen vóór presentatie
 
-### 🔴 <122 punten (<70%) - HERZIENING NODIG
+### 🔴 <146 punten (<70%) - HERZIENING NODIG
 **Substantiële revisies noodzakelijk**
 - Meerdere fundamentele principes niet nageleefd
 - Risico op hoge cognitieve belasting
@@ -377,10 +410,11 @@ Bij beperkte tijd, prioriteer in deze volgorde:
 
 1. **Toegankelijkheid** (sectie 9) - niet-onderhandelbaar voor inclusie
 2. **Redundantie** (sectie 2.1) - maximale cognitieve impact
-3. **Gagné-structuur** (sectie 1) - pedagogisch fundament
-4. **Typografie** (sectie 4) - kritieke leesbaarheid
-5. **Kleuren/contrast** (sectie 5) - visuele toegankelijkheid
-6. Overige secties naar beschikbaarheid
+3. **Assertion-Evidence** (sectie 14) - titelbewering + visueel bewijs
+4. **Gagné-structuur** (sectie 1) - pedagogisch fundament
+5. **Typografie** (sectie 4) - kritieke leesbaarheid
+6. **Kleuren/contrast** (sectie 5) - visuele toegankelijkheid
+7. Overige secties naar beschikbaarheid
 
 ---
 
@@ -464,7 +498,7 @@ Validator: __________
 
 Datum: _______________
 Handtekening: _______________
-Eindscore: _____ / 174 (_____%)
+Eindscore: _____ / 208 (_____%)
 
 ---
 
