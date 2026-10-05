@@ -86,7 +86,7 @@ Deze checklist is je laatste stap vóór het presenteren. Gebruik hem om te vali
 | Criterium | Gecontroleerd | Punten |
 |---------|---------|--------|
 | Maximaal 2 lettertypen gebruikt in de hele presentatie | ☐ | /2 |
-| Samenhangend kleurenpalet (60-30-10-regel) | ☐ | /2 |
+| Samenhangend kleurenpalet volgens de GLR-standaard (60-30-10) | ☐ | /2 |
 | Consistente plaatsing van titels/elementen | ☐ | /1 |
 
 ### 3.3 Uitlijning
@@ -110,12 +110,15 @@ Deze checklist is je laatste stap vóór het presenteren. Gebruik hem om te vali
 
 ## SECTIE 4: Typografie (12 punten)
 
+Standaardstijl: Space Grotesk (titels/labels) + Hanken Grotesk (broodtekst).
+Zie [`design-system.md`](design-system.md) voor de volledige schaal.
+
 | Criterium | Gecontroleerd | Punten |
 |---------|---------|--------|
-| **Lettertype**: Alleen sans-serif (Arial, Calibri, Helvetica) | ☐ | /2 |
+| **Lettertype**: Space Grotesk + Hanken Grotesk, of consistente Arial-fallback | ☐ | /2 |
 | **Minimale grootte**: Alle tekst ≥ 24pt | ☐ | /3 |
 | **Titelgrootte**: Titels tussen 36-44pt | ☐ | /1 |
-| **Leesbaarheid**: Geen ALL CAPS (behalve acroniemen) | ☐ | /1 |
+| **Leesbaarheid**: Geen ALL CAPS in titels/broodtekst (korte labels/badges uitgezonderd) | ☐ | /1 |
 | **Leesbaarheid**: Geen onderstreping (behalve hyperlinks) | ☐ | /1 |
 | **Leesbaarheid**: Vet voor nadruk (niet alleen kleur) | ☐ | /1 |
 | **Uitlijning**: Broodtekst links uitgelijnd | ☐ | /2 |
@@ -131,17 +134,21 @@ Deze checklist is je laatste stap vóór het presenteren. Gebruik hem om te vali
 
 | Criterium | Gecontroleerd | Punten |
 |---------|---------|--------|
-| **60-30-10-regel**: 60% achtergrond, 30% secundair, 10% accent | ☐ | /2 |
-| **Harmonie**: Samenhangend palet (max. 3-5 kleuren) | ☐ | /1 |
+| **60-30-10-regel**: 60% wit/gebroken wit, 30% zwart (structuur), 10% lime (`#A6E22E`/`#76B800`) + kobalt (`#002BFF`) | ☐ | /2 |
+| **Harmonie**: Samenhangend GLR-palet (canvas, zwart, lime, kobalt) | ☐ | /1 |
 
 ### 5.2 Toegankelijkheid (WCAG 2.1 AA)
+
+Gebruik uitsluitend de geverifieerde combinaties uit
+[`design-system.md`](design-system.md): zwart op lime 13,5:1 · lime op zwart
+13,5:1 · kobalt op wit 7,5:1 · groen op wit alleen `#416900` (6,5:1).
 
 | Criterium | Gecontroleerd | Punten |
 |---------|---------|--------|
 | **Normale tekst**: Contrast ≥ 4,5:1 (tekst < 18pt) | ☐ | /3 |
 | **Grote tekst**: Contrast ≥ 3:1 (tekst ≥ 18pt of 14pt vet) | ☐ | /2 |
 | **Grafieken**: Contrast ≥ 3:1 voor belangrijke grafische elementen | ☐ | /1 |
-| **Kleurenblindheid**: Geen rood/groen- of blauw/geel-combinaties | ☐ | /1 |
+| **Kleurenblindheid**: Geen rood/groen- of blauw/geel-combinaties; lime altijd met vorm/label én zwart-witcontrast | ☐ | /1 |
 
 **Score sectie 5: _____ / 10**
 
@@ -226,7 +233,7 @@ Deze checklist is je laatste stap vóór het presenteren. Gebruik hem om te vali
 | Criterium | Gecontroleerd | Punten |
 |---------|---------|--------|
 | **Contrast**: Ratio's gevalideerd met tool (4,5:1 / 3:1) | ☐ | /3 |
-| **Lettertype**: Sans-serif, groot (≥24pt) | ☐ | /2 |
+| **Lettertype**: Space Grotesk/Hanken Grotesk (of consistente fallback), groot (≥24pt) | ☐ | /2 |
 | **Eenvoud**: Geen overmatig cursief of afleidende animaties | ☐ | /1 |
 | **Eenvoudige taal**: Directe en eenvoudige taal | ☐ | /1 |
 
@@ -241,19 +248,20 @@ Deze checklist is je laatste stap vóór het presenteren. Gebruik hem om te vali
 
 ---
 
-## SECTIE 10: Inhoud & duidelijkheid (14 punten)
+## SECTIE 10: Inhoud & duidelijkheid (16 punten)
 
 | Criterium | Gecontroleerd | Punten |
 |---------|---------|--------|
 | **Eén idee per slide**: Elke slide = 1 hoofdboodschap | ☐ | /3 |
 | **Duidelijke doelen**: Leerdoelen expliciet en meetbaar | ☐ | /2 |
 | **Bloom's Taxonomy**: Doelen gebruiken passende actiewerkwoorden | ☐ | /2 |
+| **Bloom-afstemming**: Werkwoord, slidedesign en activiteit op hetzelfde niveau (kennisdimensie meegenomen) | ☐ | /2 |
 | **Oefening opgenomen**: Mogelijkhe(i)d(en) tot actieve oefening aanwezig | ☐ | /2 |
 | **Feedback gegeven**: Verklarende feedback na oefening | ☐ | /2 |
 | **Transfer naar praktijk**: Toepassing op echte situaties besproken | ☐ | /2 |
 | **Kernbegrippen gedefinieerd**: Technisch vocabulaire vooraf aangeleerd | ☐ | /1 |
 
-**Score sectie 10: _____ / 14**
+**Score sectie 10: _____ / 16**
 
 ---
 
@@ -270,17 +278,21 @@ Deze checklist is je laatste stap vóór het presenteren. Gebruik hem om te vali
 
 ---
 
-## SECTIE 12: Storytelling & engagement (10 punten)
+## SECTIE 12: Storytelling & narratief (20 punten)
 
 | Criterium | Gecontroleerd | Punten |
 |---------|---------|--------|
 | **Verhaalstructuur**: Presentatie volgt een duidelijke verhaallijn | ☐ | /3 |
+| **ABT-kernzin**: EN (context) → MAAR (probleem) → DAAROM (oplossing) aanwezig | ☐ | /3 |
+| **Narratieve puurheid**: Geen En-en-en-opsomming of Ondanks-echter-behalve-structuur | ☐ | /2 |
+| **Sparkline**: Systematische oscillatie Wat Is ↔ Wat Zou Kunnen Zijn | ☐ | /3 |
+| **New Bliss**: Slot toont de ultieme waarde/impact van het idee | ☐ | /2 |
 | **Haak**: Pakkende opening die het publiek grijpt | ☐ | /2 |
 | **Voorbeelden/verhalen**: Concrete casussen, anekdotes, echte voorbeelden | ☐ | /2 |
 | **Emotionele connectie**: Momenten van emotionele impact opgenomen | ☐ | /1 |
 | **Duidelijke conclusie**: Memorabele conclusie met call-to-action | ☐ | /2 |
 
-**Score sectie 12: _____ / 10**
+**Score sectie 12: _____ / 20**
 
 ---
 
@@ -299,6 +311,32 @@ Deze checklist is je laatste stap vóór het presenteren. Gebruik hem om te vali
 
 ---
 
+## SECTIE 14: Assertion-Evidence (12 punten)
+
+| Criterium | Gecontroleerd | Punten |
+|---------|---------|--------|
+| **Titelbewering**: Elke inhoudsslide heeft een declaratieve titel met de takeaway | ☐ | /4 |
+| **Lengte**: Titelbeweringen max. 12-15 woorden (1-2 regels) | ☐ | /2 |
+| **Geen bullets**: Body bevat alleen visueel bewijs + callouts | ☐ | /3 |
+| **Bewijskracht**: Visueel bewijs ondersteunt de titelbewering direct | ☐ | /3 |
+
+**Score sectie 14: _____ / 12**
+
+---
+
+## SECTIE 15: Actieve verwerking & Peer Instruction (10 punten)
+
+| Criterium | Gecontroleerd | Punten |
+|---------|---------|--------|
+| **Cadans**: Checkpoint ingepland elke 10-15 minuten | ☐ | /3 |
+| **Concepttoets**: Vragen op Analyze-/Evaluate-niveau | ☐ | /3 |
+| **Cyclus**: Stemmen → overleggen (2-3 min) → herstemmen gevolgd | ☐ | /2 |
+| **Feedbackvisual**: Gerichte uitleg met visual die misconcepties wegneemt | ☐ | /2 |
+
+**Score sectie 15: _____ / 10**
+
+---
+
 ## EINDSCORE BEREKENEN
 
 | Sectie | Behaalde score | Maximale score | Percentage |
@@ -312,35 +350,37 @@ Deze checklist is je laatste stap vóór het presenteren. Gebruik hem om te vali
 | 7. Animaties | _____ | 8 | _____% |
 | 8. Witruimte | _____ | 8 | _____% |
 | 9. Toegankelijkheid | _____ | 20 | _____% |
-| 10. Inhoud & duidelijkheid | _____ | 14 | _____% |
+| 10. Inhoud & duidelijkheid | _____ | 16 | _____% |
 | 11. Duur & tempo | _____ | 6 | _____% |
-| 12. Storytelling | _____ | 10 | _____% |
+| 12. Storytelling & narratief | _____ | 20 | _____% |
 | 13. Consistentie | _____ | 8 | _____% |
-| **TOTAAL** | **_____** | **180** | **_____%** |
+| 14. Assertion-Evidence | _____ | 12 | _____% |
+| 15. Actieve verwerking & Peer Instruction | _____ | 10 | _____% |
+| **TOTAAL** | **_____** | **214** | **_____%** |
 
 ---
 
 ## SCORE-INTERPRETATIE
 
-### 🏆 171-180 punten (95-100%) - UITMUNTEND
+### 🏆 204-214 punten (95-100%) - UITMUNTEND
 **Gefeliciteerd!** Je presentatie is voorbeeldig.
 - Past de cognitieve principes strikt toe
 - Professioneel en toegankelijk ontwerp
 - Klaar om te presenteren zonder wijzigingen
 
-### 🎯 153-170 punten (85-94%) - ZEER GOED
+### 🎯 182-203 punten (85-94%) - ZEER GOED
 **Uitstekend werk!** Enkele kleine aanpassingen aanbevolen.
 - Sterk in de meeste domeinen
 - Enkele details om bij te schaven
 - Lichte revisie aangeraden vóór presentatie
 
-### ⚠️ 126-152 punten (70-84%) - ACCEPTABEL
+### ⚠️ 150-181 punten (70-84%) - ACCEPTABEL
 **Goed begin**, maar verbeteringen nodig.
 - Solide basis, maar lacunes vastgesteld
 - Focus op secties <80%
 - Revisie aanbevolen vóór presentatie
 
-### 🔴 <126 punten (<70%) - HERZIENING NODIG
+### 🔴 <150 punten (<70%) - HERZIENING NODIG
 **Substantiële revisies noodzakelijk**
 - Meerdere fundamentele principes niet nageleefd
 - Risico op hoge cognitieve belasting
@@ -382,10 +422,11 @@ Bij beperkte tijd, prioriteer in deze volgorde:
 
 1. **Toegankelijkheid** (sectie 9) - niet-onderhandelbaar voor inclusie
 2. **Redundantie** (sectie 2.1) - maximale cognitieve impact
-3. **Gagné-structuur** (sectie 1) - pedagogisch fundament
-4. **Typografie** (sectie 4) - kritieke leesbaarheid
-5. **Kleuren/contrast** (sectie 5) - visuele toegankelijkheid
-6. Overige secties naar beschikbaarheid
+3. **Assertion-Evidence** (sectie 14) - titelbewering + visueel bewijs
+4. **Gagné-structuur** (sectie 1) - pedagogisch fundament
+5. **Typografie** (sectie 4) - kritieke leesbaarheid
+6. **Kleuren/contrast** (sectie 5) - visuele toegankelijkheid
+7. Overige secties naar beschikbaarheid
 
 ---
 
@@ -469,7 +510,7 @@ Validator: __________
 
 Datum: _______________
 Handtekening: _______________
-Eindscore: _____ / 180 (_____%)
+Eindscore: _____ / 214 (_____%)
 
 ---
 

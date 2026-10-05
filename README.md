@@ -14,9 +14,14 @@ toegankelijke presentaties voor onderwijs en training. Gebaseerd op:
 
 - **Cognitive Load Theory** (Sweller)
 - **Mayers 12 principes voor multimediaal leren**
+- **Assertion-Evidence-framework** (Michael Alley)
+- **ABT-narratief & Sparkline** (Randy Olson, Nancy Duarte)
+- **Peer Instruction & herziene taxonomie** (Eric Mazur, Anderson & Krathwohl)
 - **Gagné's 9 instructiegebeurtenissen**
 - **C.R.A.P.-ontwerpprincipes** (Robin Williams)
 - **WCAG 2.1 AA** toegankelijkheidsnormen
+- **GLR Media Creative**-huisstijl als standaardstijl, met geverifieerde
+  WCAG-contrastcombinaties
 
 ## Inhoud
 
@@ -25,9 +30,10 @@ toegankelijke presentaties voor onderwijs en training. Gebaseerd op:
 | `SKILL.md` | Hoofdinstructies: filosofie, principes, workflow, checklists, metadata |
 | `references/quick-reference.md` | Snelle referentiekaart (30-secondenchecklist, Mayer, Gagné, C.R.A.P., enz.) |
 | `references/slide-templates.md` | 25+ kant-en-klare slidetemplates per type slide |
+| `references/design-system.md` | Standaardstijl: GLR Media Creative-ontwerpsysteem (kleuren, typografie, contrast, slide-mapping) |
 | `references/before-after.md` | Voor/na-transformaties van 'Death by PowerPoint' naar cognitief optimaal |
 | `references/afbeeldingen.md` | Beeld-playbook: keuzegids, stockfoto's, lay-out, licenties (TASL) en bronnen |
-| `references/validation.md` | Volledige validatiechecklist (180 punten) met scoring |
+| `references/validation.md` | Volledige validatiechecklist (214 punten, 15 secties) met scoring |
 
 ## Installatie
 
