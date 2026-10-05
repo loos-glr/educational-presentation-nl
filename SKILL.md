@@ -159,20 +159,51 @@ Groepeer verwante items dicht bij elkaar:
 
 ## Visuele elementen & multimedia
 
-### Afbeeldingen & iconen
-- ✅ Hoogwaardige, relevante foto's
+### Kernregel: elk beeld dient het leren
+Beelden zijn geen decoratie. Ze verlagen cognitieve belasting door het verbale kanaal te ontlasten (Dual Coding Theory). Als een beeld het leerdoel niet ondersteunt, verwijder het (Coherentieprincipe).
+
+### Keuzegids: welk beeldtype?
+
+| Je wilt… | Gebruik | Vermijd |
+|----------|---------|---------|
+| Concrete situatie/context tonen | Foto (stock of eigen) | Generieke clipart |
+| Abstract concept duiden | Icoon, metafoor-foto of diagram | Nietszeggende foto |
+| Proces/stappenreeks tonen | Diagram of iconenreeks | Één volgepropte afbeelding |
+| Data communiceren | Grafiek (zie keuzegids onderaan) | 3D-effecten, decoratie |
+
+### Afbeeldingen & foto's
+- ✅ Hoogwaardige, relevante foto's (stock of eigen)
+- ✅ Eén groot beeld per slide (geen collage van kleine plaatjes)
+- ✅ Consistente stijl: zelfde fotograaf/collectie en kleurgradatie
+- ❌ Geen decoratieve clipart of "seductive details"
+- ❌ Geen clichés (handdruk, gloeilamp, generieke kantoorfoto's)
+- ❌ Geen "talking head"-foto van de spreker als instructie-element (Mayer: image-principe levert geen leerwinst op en leidt af)
+
+### Iconen
 - ✅ Professionele iconen (Noun Project, Flaticon, Iconoir)
 - ✅ Iconen kunnen bullets vervangen
-- ❌ Geen decoratieve clipart of "seductive details"
+- ✅ Consistente stijl (zelfde iconenpakket)
+
+### Plaatsing & lay-out
+- Full-bleed voor hook-/emotionele slides; ingekaderd voor instructie-slides
+- Laat de blikrichting van personen naar de tekst wijzen
+- Crop op het onderwerp; behoud altijd de beeldverhouding (nooit uitrekken)
+- Tekst op een foto alleen met een contrastrijke overlay (≥ 4,5:1)
+- Voeg altijd alt-tekst toe (zie Toegankelijkheid)
 
 ### Grafieken & diagrammen
 - Vereenvoudig tot één duidelijke boodschap per grafiek
 - Gebruik progressive disclosure voor complexe diagrammen
 - Label direct op de elementen (geen aparte legenda)
 
-**Gratis legale bronnen**:
-- Afbeeldingen: Unsplash, Wikimedia Commons
-- Iconen: Noun Project, Flaticon, Iconoir
+### Gratis legale bronnen
+- **Foto's**: Unsplash, Pexels, Pixabay, Wikimedia Commons, Openverse
+- **Iconen**: Noun Project, Flaticon, Iconoir
+- **Specifiek (gezondheid & wetenschap)**: NIH Image Gallery, CDC Public Health Image Library (PHIL)
+
+⚠️ **Licentie & bronvermelding**: gebruik het **TASL**-framework (Title, Author, Source, License). CC0/publiek domein mag vrij; CC BY vereist naamsvermelding. Vermijd NC- en ND-licenties voor lesmateriaal.
+
+**Voor het volledige beeld-playbook** (selectiecriteria, plaatsing, licenties, werkproces), lees [`references/afbeeldingen.md`](references/afbeeldingen.md).
 
 ---
 
@@ -264,7 +295,7 @@ Groepeer verwante items dicht bij elkaar:
 4. Bevestig dat alle afbeeldingen alt-tekst hebben
 5. Test op het echte presentatiescherm
 
-**Voor de uitgebreide validatiechecklist (174 punten)**, lees [`references/validation.md`](references/validation.md).
+**Voor de uitgebreide validatiechecklist (180 punten)**, lees [`references/validation.md`](references/validation.md).
 
 ---
 
@@ -329,6 +360,8 @@ Controleer vóór presentatie:
 ### Multimedia ✓
 - [ ] Elke slide heeft woorden ÉN afbeeldingen
 - [ ] Alleen hoogwaardige, relevante afbeeldingen
+- [ ] Beeldstijl consistent over alle slides
+- [ ] Licentie gecheckt en bronvermelding (TASL) toegevoegd
 - [ ] Labels naast de grafiek geplaatst
 
 ### Interactie ✓
@@ -392,15 +425,25 @@ Deze skill bevat gedetailleerde referentiebestanden voor specifieke behoeften:
 - C.R.A.P.-Mayer-scoring voor validatie
 - Visuele vergelijkingen die verbeteringen tonen
 
+### [`references/afbeeldingen.md`](references/afbeeldingen.md)
+**Gebruik wanneer**: je beelden wilt kiezen, licenties wilt checken of afbeeldingen correct wilt plaatsen
+**Bevat**:
+- Keuzegids: foto, icoon, diagram of grafiek
+- Selectiecriteria voor stockfoto's
+- Plaatsings- en lay-outregels
+- Toegankelijkheid (alt-tekst, contrast)
+- Licenties & bronvermelding (TASL)
+- Bronnenlijst en werkproces
+
 ### [`references/validation.md`](references/validation.md)
 **Gebruik wanneer**: je uitgebreide validatie vóór presentatie nodig hebt
 **Bevat**:
-- Volledige validatiechecklist van 174 punten
+- Volledige validatiechecklist van 180 punten
 - 13 evaluatiesecties met scoring
 - Pedagogische structuur (20 pt)
 - Mayer-principes (24 pt)
 - C.R.A.P.-ontwerp (16 pt)
-- Typografie, kleuren, visuals (40 pt)
+- Typografie, kleuren, visuals (46 pt)
 - Animaties, witruimte, toegankelijkheid (36 pt)
 - Inhoud, duur, storytelling, consistentie (38 pt)
 - Scoresysteem: 95–100% = Uitmuntend, 85–94% = Zeer goed, 70–84% = Acceptabel, <70% = Herziening nodig
@@ -425,8 +468,9 @@ Wanneer de agent daadwerkelijk .pptx-bestanden moet maken:
 **Workflow**:
 1. Gebruik de educational-presentation-nl skill om structuur en inhoud te plannen
 2. Maak gedetailleerde slide-opzetten met sprekersnotities
-3. Gebruik de pptx-skill om het bestand technisch te realiseren
-4. Keer terug naar deze skill voor de eindvalidatie
+3. **Zoek per slide het juiste beeld** (foto/icoon/diagram), check de licentie en leg de TASL-bronvermelding vast
+4. Gebruik de pptx-skill om het bestand technisch te realiseren (incl. alt-tekst per afbeelding)
+5. Keer terug naar deze skill voor de eindvalidatie
 
 ---
 

@@ -26,7 +26,8 @@ toegankelijke presentaties voor onderwijs en training. Gebaseerd op:
 | `references/quick-reference.md` | Snelle referentiekaart (30-secondenchecklist, Mayer, Gagné, C.R.A.P., enz.) |
 | `references/slide-templates.md` | 25+ kant-en-klare slidetemplates per type slide |
 | `references/before-after.md` | Voor/na-transformaties van 'Death by PowerPoint' naar cognitief optimaal |
-| `references/validation.md` | Volledige validatiechecklist (174 punten) met scoring |
+| `references/afbeeldingen.md` | Beeld-playbook: keuzegids, stockfoto's, lay-out, licenties (TASL) en bronnen |
+| `references/validation.md` | Volledige validatiechecklist (180 punten) met scoring |
 
 ## Installatie
 

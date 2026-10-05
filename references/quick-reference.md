@@ -318,18 +318,40 @@ Vb: "Analyseer de oorzaken van de Nederlandse Opstand"
 - webaim.org/contrastchecker
 - coolors.co/contrast-checker
 
-### Afbeeldingen
-- unsplash.com (gratis foto's)
-- commons.wikimedia.org (publiek domein)
+### Foto's
+- unsplash.com (gratis, hoge kwaliteit)
+- pexels.com (gratis)
+- pixabay.com (gratis)
+- commons.wikimedia.org (publiek domein / CC)
+- openverse.org (zoekmachine voor CC-content)
 
 ### Iconen
 - thenounproject.com
 - flaticon.com
 - iconoir.com
 
+### Wetenschap & gezondheid
+- NIH Image Gallery
+- CDC Public Health Image Library (PHIL)
+
 ### Toegankelijkheid
 - PowerPoint: Check Accessibility (ingebouwd)
 - Google Slides: Grackle add-on
+
+### Licentie-spiekbriefje (TASL)
+
+```
+Beeld met licentie? Vermeld altijd:
+  T - Titel
+  A - Auteur   (de maker, niet de website)
+  S - Bron     (waar het vandaan komt + link)
+  L - Licentie (bv. CC BY 4.0)
+
+CC0 / Publiek domein  ->  vrij, geen vermelding verplicht
+CC BY                 ->  naamsvermelding verplicht
+CC BY-SA              ->  naamsvermelding + zelfde licentie
+CC BY-NC / ND         ->  vermijd voor lesmateriaal
+```
 
 ---
 
