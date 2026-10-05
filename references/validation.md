@@ -147,7 +147,7 @@ Deze checklist is je laatste stap vóór het presenteren. Gebruik hem om te vali
 
 ---
 
-## SECTIE 6: Visuals & multimedia (18 punten)
+## SECTIE 6: Visuals & multimedia (24 punten)
 
 ### 6.1 Afbeeldingen
 
@@ -156,6 +156,11 @@ Deze checklist is je laatste stap vóór het presenteren. Gebruik hem om te vali
 | **Relevantie**: Alle afbeeldingen zijn essentieel en relevant | ☐ | /3 |
 | **Kwaliteit**: Hoge resolutie, professioneel (geen clipart) | ☐ | /2 |
 | **Geen seductive details**: Geen "interessante maar nutteloze" afbeeldingen | ☐ | /2 |
+| **Licentie & bronvermelding**: Legale bron; TASL-vermelding toegevoegd (indien vereist) | ☐ | /2 |
+| **Consistente stijl**: Zelfde fotograaf/collectie en kleurgradatie | ☐ | /1 |
+| **Beeldverhouding**: Niet uitgerekt of vervormd | ☐ | /1 |
+| **Geen tekst in beeld**: Tekst nooit verwerkt in de afbeelding zelf | ☐ | /1 |
+| **Image-principe**: Geen sprekersfoto als instructie-element | ☐ | /1 |
 
 ### 6.2 Iconen & grafieken
 
@@ -175,7 +180,7 @@ Deze checklist is je laatste stap vóór het presenteren. Gebruik hem om te vali
 | **Lijnen**: Max. 4-5 lijnen op lijngrafieken | ☐ | /1 |
 | **Segmenten**: Max. 5 delen op taartdiagrammen | ☐ | /1 |
 
-**Score sectie 6: _____ / 18**
+**Score sectie 6: _____ / 24**
 
 ---
 
@@ -303,7 +308,7 @@ Deze checklist is je laatste stap vóór het presenteren. Gebruik hem om te vali
 | 3. C.R.A.P.-ontwerp | _____ | 16 | _____% |
 | 4. Typografie | _____ | 12 | _____% |
 | 5. Kleuren | _____ | 10 | _____% |
-| 6. Visuals & multimedia | _____ | 18 | _____% |
+| 6. Visuals & multimedia | _____ | 24 | _____% |
 | 7. Animaties | _____ | 8 | _____% |
 | 8. Witruimte | _____ | 8 | _____% |
 | 9. Toegankelijkheid | _____ | 20 | _____% |
@@ -311,31 +316,31 @@ Deze checklist is je laatste stap vóór het presenteren. Gebruik hem om te vali
 | 11. Duur & tempo | _____ | 6 | _____% |
 | 12. Storytelling | _____ | 10 | _____% |
 | 13. Consistentie | _____ | 8 | _____% |
-| **TOTAAL** | **_____** | **174** | **_____%** |
+| **TOTAAL** | **_____** | **180** | **_____%** |
 
 ---
 
 ## SCORE-INTERPRETATIE
 
-### 🏆 165-174 punten (95-100%) - UITMUNTEND
+### 🏆 171-180 punten (95-100%) - UITMUNTEND
 **Gefeliciteerd!** Je presentatie is voorbeeldig.
 - Past de cognitieve principes strikt toe
 - Professioneel en toegankelijk ontwerp
 - Klaar om te presenteren zonder wijzigingen
 
-### 🎯 148-164 punten (85-94%) - ZEER GOED
+### 🎯 153-170 punten (85-94%) - ZEER GOED
 **Uitstekend werk!** Enkele kleine aanpassingen aanbevolen.
 - Sterk in de meeste domeinen
 - Enkele details om bij te schaven
 - Lichte revisie aangeraden vóór presentatie
 
-### ⚠️ 122-147 punten (70-84%) - ACCEPTABEL
+### ⚠️ 126-152 punten (70-84%) - ACCEPTABEL
 **Goed begin**, maar verbeteringen nodig.
 - Solide basis, maar lacunes vastgesteld
 - Focus op secties <80%
 - Revisie aanbevolen vóór presentatie
 
-### 🔴 <122 punten (<70%) - HERZIENING NODIG
+### 🔴 <126 punten (<70%) - HERZIENING NODIG
 **Substantiële revisies noodzakelijk**
 - Meerdere fundamentele principes niet nageleefd
 - Risico op hoge cognitieve belasting
@@ -464,7 +469,7 @@ Validator: __________
 
 Datum: _______________
 Handtekening: _______________
-Eindscore: _____ / 174 (_____%)
+Eindscore: _____ / 180 (_____%)
 
 ---
 
